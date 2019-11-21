@@ -1,0 +1,29 @@
+{
+  "name": "azure-ml-image-labeling-service",
+  "description": "Serverless machine learning-powered image labeling service on Azure",
+  "keywords": [
+    "azure",
+    "microsoft azure",
+    "cognitive services",
+    "computer vision",
+    "image labeling",
+    "serverless functions",
+    "azure functions",
+    "machine learning",
+    "ml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaelvesavuori/azure-ml-image-labeling-service.git"
+  },
+  "version": "1.0.0",
+  "main": "getImageLabels.js",
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/cognitiveservices-computervision": "^6.0.0",
+    "@azure/ms-rest-js": "^2.0.4",
+    "serverless-azure-functions": "^1.0.2",
+    "serverless-dotenv-plugin": "^2.1.1"
+  }
+}
