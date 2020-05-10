@@ -24,6 +24,12 @@
     "@azure/cognitiveservices-computervision": "^6.0.0",
     "@azure/ms-rest-js": "^2.0.4",
     "serverless-azure-functions": "^1.0.2",
-    "serverless-dotenv-plugin": "^2.1.1"
-  }
+    "serverless-dotenv-plugin": "^2.1.1",
+    "snyk": "^1.316.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
