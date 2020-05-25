@@ -16,16 +16,16 @@
     "type": "git",
     "url": "https://github.com/mikaelvesavuori/azure-ml-image-labeling-service.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "getImageLabels.js",
   "author": "Mikael Vesavuori",
   "license": "MIT",
   "dependencies": {
-    "@azure/cognitiveservices-computervision": "^6.0.0",
-    "@azure/ms-rest-js": "^2.0.4",
-    "serverless-azure-functions": "^1.0.2",
-    "serverless-dotenv-plugin": "^2.1.1",
-    "snyk": "^1.316.2"
+    "@azure/cognitiveservices-computervision": "^7.0.0",
+    "@azure/ms-rest-js": "^2.0.7",
+    "serverless-azure-functions": "^2.0.4",
+    "serverless-dotenv-plugin": "^2.4.2",
+    "snyk": "^1.327.0"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
