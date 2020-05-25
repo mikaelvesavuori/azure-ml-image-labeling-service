@@ -3,7 +3,7 @@ service: azure-ml-image-labeling-service
 provider:
   name: azure
   location: North Europe
-  runtime: nodejs10.x
+  runtime: nodejs12
   environment:
     COMPUTER_VISION_SUBSCRIPTION_KEY: ${env:COMPUTER_VISION_SUBSCRIPTION_KEY}
     COMPUTER_VISION_ENDPOINT: ${env:COMPUTER_VISION_ENDPOINT}
