@@ -25,7 +25,7 @@
     "@azure/ms-rest-js": "^2.0.7",
     "serverless-azure-functions": "^2.0.4",
     "serverless-dotenv-plugin": "^2.4.2",
-    "snyk": "^1.327.0"
+    "snyk": "^1.1024.0"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
